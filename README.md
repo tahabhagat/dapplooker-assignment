@@ -34,3 +34,4 @@ $ podman logs -f dapplooker-assignment
 - Create custom exceptions for errors from downstream APIs and propogate correctly to frontend
 - Create postman collection for testing the APIs
 - Have tested with podman, test with docker as well to catch any issues
+- Fix lint issues
