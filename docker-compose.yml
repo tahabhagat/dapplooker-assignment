@@ -1,0 +1,16 @@
+services:
+  dapplooker-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dapplooker-assignment
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    networks:
+      - dapplooker-network
+networks:
+  dapplooker-network:
+    driver: bridge
