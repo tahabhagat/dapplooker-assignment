@@ -27,7 +27,7 @@ OR
 $ podman logs -f dapplooker-assignment
 ```
 
-##TODO
+## TODO
 - Use market chart resource for token sentiment analysis
 - Add test cases using pytest.
 - Create a github actions pipeline to build the docker image, and push to a container registry/deploy to a cloud platform
